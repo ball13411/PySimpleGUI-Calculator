@@ -1,8 +1,4 @@
-
-# coding: utf-8
-
-# In[1]:
-
+# Use with PySimpleGUI_Calculator_Apisit_6001012630187.py
 
 import PySimpleGUI as sg    
 
