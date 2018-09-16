@@ -1,6 +1,4 @@
 
-# coding: utf-8
-
 # # PySimpleGUI Calculator
 
 # # By Apisit Khomcharoen 6001012630187
@@ -9,15 +7,13 @@
 
 # #  Ref ---> https://pysimplegui.readthedocs.io/en/latest/cookbook/
 
-# In[7]:
-
-
 # Calculator by PySimpleGUI
 # Credit Thankyou "   https://pysimplegui.readthedocs.io/en/latest/cookbook/    "
 
+#------------------------------------------------------- Code ------------------------------------------------------------------
+
 from Class_Button import *
 import PySimpleGUI as sg    
-
 
 # Creat GUI       # Call Class from Class_Button.py
 layout = [[sg.Txt(''  * 10)],                      
@@ -29,7 +25,6 @@ layout = [[sg.Txt(''  * 10)],
           [Button('1',('black','yellow')).Create(), Button('2',('black','yellow')).Create(), Button('3',('black','yellow')).Create(), Button('-',('black','orange')).Create()],
           [Button('.',('black','orange')).Create(), Button('0',('black','yellow')).Create(), Button('=',('black','orange')).Create(), Button('+',('black','orange')).Create()],
           ]
-
 
 # Set PySimpleGUI
 form = sg.FlexForm('13411_CALCULATOR', default_button_element_size=(5, 2), auto_size_buttons=False, grab_anywhere=False)
@@ -95,7 +90,7 @@ while True:
     elif button is 'Quit'  or button is None:                            # QUIT Program
         break
         
-#---------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------
         
 """
 
