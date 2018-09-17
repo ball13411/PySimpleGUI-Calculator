@@ -58,7 +58,6 @@ while True:
         # Error Case
         for i in List_Op_Error :  
             if '*' is Equal[0] or '/' is Equal[0] or ')' is Equal[0]  or i is Equal[-1]:   # Check Error Case
-                print(0)
                 Answer = "Error Operation" 
                 break
             elif Equal == '6001012630187':
